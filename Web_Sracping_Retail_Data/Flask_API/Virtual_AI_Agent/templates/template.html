@@ -1,0 +1,8 @@
+<!doctype html>
+<title>Hello from Flask</title>
+{% if filename %}
+  <h1>"{{prediction}}"<img src="{{filename}}" style="max-height: 500px; max-width: 500px;"> </h1>
+  
+{% else %}
+  <h1>no image for whatever reason</h1>
+{% endif %}
